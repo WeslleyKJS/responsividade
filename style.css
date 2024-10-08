@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+::root{
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+
+--Transparent-white : (paragraphs) hsla(0, 0%, 100%, 0.75);
+--Very-light-gray : (headings, buttons) hsl(0, 0%, 95%);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.principal-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 800px;
+}
+
+.container-1{
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 350px;
+    height: 500px;
+}
+
+
+h1{
+    font-family:Big Shoulders Display;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p{
+    font-family:Lexend Deca;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 25px;
+}
+
+#learn{
+    padding: 14px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    margin: 50px 0 0 0;
+}
+
+.container-2{
+    background-color: hsl(184, 100%, 22%);
+    width: 350px;
+    height: 500px;
+}
+
+.container-3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    width: 350px;
+    height: 500px;
+}
+
+img{
+    margin-bottom: 20px;
+
+}
+
+#learn-2{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    font-family: Lexend Deca;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    padding: 14px;
+    margin: 50px 0 0 0;
+}
+
+#learn-3{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    font-family: Lexend Deca;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;    
+    padding: 14px;
+    margin: 50px 0 0 0;
+}
+
+#learn:hover{
+    background-color: hsl(31, 77%, 52%);
+    outline: solid 1px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+@media query( max-width:  768px ){
+
+    body{
+        
+    }
+}
